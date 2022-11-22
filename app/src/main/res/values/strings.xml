@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">biketour2</string>
+
+    <string name="btn_iniciar_pantalla">Iniciar Sesion</string>
+    <string name="btn_registrar_pantalla">Registrarse</string>
+
+    <string name="btn_iniciar_sesion">Iniciar Sesion</string>
+    <string name="btn_registrarse_sesion">Registrarse</string>
+
+    <string name="consejos_btn">Consejos</string>
+    <string name="implementos_btn">Implementos</string>
+    <string name="bicis_btn">Bicicletas</string>
+    <string name="atracciones_btn">Atracciones</string>
+
+    <string name="descripcion_consejos">Los mejores consejos a seguir antes de salir a ruta</string>
+    <string name="descripcion_implementos">Implementos necesarios para salir a ruta</string>
+    <string name="descripcion_bicis">Las bicicletas recomendables para salir a ruta</string>
+    <string name="descripcion_atracciones">Las atracciones que podras encontrar en ruta</string>
+    <string name="title_activity_mapa_usuario">mapaUsuarioActivity</string>
+    <string name="title_activity_mapa2">mapa2Activity</string>
+
+
+</resources>
