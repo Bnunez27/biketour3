@@ -13,8 +13,14 @@ public class usuarioActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_usuario);
     }
-    public void irMapa(View View){
+
+    public void irMapa(View View) {
         Intent i = new Intent(this, mapa2Activity.class);
+        startActivity(i);
+    }
+
+    public void irLista(View View) {
+        Intent i = new Intent(this, ListaActivity.class);
         startActivity(i);
     }
 }
