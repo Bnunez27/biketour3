@@ -50,7 +50,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="registrarUsuario"
-            android:text="Registrarse" />
+            android:text="Registrarse"
+            app:backgroundTint="#F80000" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="344dp"
+            android:layout_height="221dp"
+            app:srcCompat="@drawable/biketourfoto" />
 
 
     </LinearLayout>

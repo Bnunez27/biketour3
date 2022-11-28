@@ -49,39 +49,43 @@
 
     <Button
         android:id="@+id/mapgeneral"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="57dp"
         android:onClick="irMapa"
-        android:text="MAPA"
+        android:text="MAPA ATRACCIONES"
+        app:backgroundTint="#E80505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.011"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
+        app:layout_constraintVertical_bias="0.928" />
 
     <Button
         android:id="@+id/act1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="irLista"
-        android:text="ACTIVIDAD"
+        android:text="ENCUESTA"
+        app:backgroundTint="#E60505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
+        app:layout_constraintVertical_bias="0.92" />
 
     <Button
         android:id="@+id/rutas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="RUTAS"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:onClick="irMapaCiclovia"
+        android:text="MAPA CICLOVIAS"
+        app:backgroundTint="#FF0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="0.986"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
+        app:layout_constraintVertical_bias="0.92" />
 </androidx.constraintlayout.widget.ConstraintLayout>

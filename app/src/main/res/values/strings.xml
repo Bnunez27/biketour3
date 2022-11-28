@@ -19,5 +19,11 @@
     <string name="title_activity_mapa_usuario">mapaUsuarioActivity</string>
     <string name="title_activity_mapa2">mapa2Activity</string>
 
+    <string name="btn_agregar_registro_actividad">Agregar Actividad</string>
+    <string name="txt_lbl_agregar_registro_calorias">Del 1-10 Cuanto le gusta la aplicacion?</string>
+    <string name="txt_lblagregar_registro_km">Que debemos agregarle a la aplicacion?</string>
+    <string name="title_activity_mapas">MapasActivity</string>
+    <string name="title_activity_mapas_ciclovias">MapasCicloviasActivity</string>
+
 
 </resources>

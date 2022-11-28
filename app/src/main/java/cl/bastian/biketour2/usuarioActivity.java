@@ -15,12 +15,19 @@ public class usuarioActivity extends AppCompatActivity {
     }
 
     public void irMapa(View View) {
-        Intent i = new Intent(this, mapa2Activity.class);
+        Intent i = new Intent(this, MapasActivity.class);
         startActivity(i);
     }
 
     public void irLista(View View) {
-        Intent i = new Intent(this, ListaActivity.class);
+        Intent i = new Intent(this, Registroactividades.class);
         startActivity(i);
     }
+
+    public void irMapaCiclovia(View View) {
+        Intent i = new Intent(this, MapasCicloviasActivity.class);
+        startActivity(i);
+    }
+
+
 }

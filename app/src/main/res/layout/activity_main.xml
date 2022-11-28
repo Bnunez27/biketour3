@@ -29,6 +29,7 @@
                 android:layout_weight="1"
                 android:onClick="irIniciar"
                 android:text="@string/btn_iniciar_pantalla"
+                app:backgroundTint="#DA0909"
                 tools:text="@string/btn_iniciar_pantalla" />
 
             <Button
@@ -39,6 +40,7 @@
                 android:layout_weight="1"
                 android:onClick="irRegistrarse"
                 android:text="@string/btn_registrar_pantalla"
+                app:backgroundTint="#E30B0B"
                 tools:text="@string/btn_registrar_pantalla" />
 
         </LinearLayout>
@@ -90,7 +92,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:onClick="irconsejo"
-                                android:text="@string/consejos_btn" />
+                                android:text="@string/consejos_btn"
+                                app:backgroundTint="#E32020" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -141,7 +144,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:onClick="irimplemento"
-                                android:text="@string/implementos_btn" />
+                                android:text="@string/implementos_btn"
+                                app:backgroundTint="#CF1414" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -193,7 +197,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:onClick="irbici"
-                                android:text="@string/bicis_btn" />
+                                android:text="@string/bicis_btn"
+                                app:backgroundTint="#D11D1D" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -243,7 +248,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:onClick="iratracciones"
-                                android:text="@string/atracciones_btn" />
+                                android:text="@string/atracciones_btn"
+                                app:backgroundTint="#DA0101" />
                         </LinearLayout>
 
                     </LinearLayout>
